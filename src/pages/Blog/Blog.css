@@ -1,0 +1,34 @@
+.blogs-container {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	max-width: 1000px;
+	width: 100%;
+}
+
+.blogs-items {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.blogs-items > h2 {
+	margin: 0 auto 1rem auto;
+}
+
+.blogs-items p {
+	margin-bottom: 1rem;
+}
+
+.blogs-items a {
+	text-decoration: none;
+	color: white;
+	background-color: purple;
+	border-width: 0;
+	display: block;
+	border-style: solid;
+	margin: 0 auto;
+	font-size: 1.1rem;
+	padding: 0.3rem 1rem;
+	border-radius: 1rem;
+}
