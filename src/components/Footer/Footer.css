@@ -1,0 +1,11 @@
+footer {
+	display: flex;
+	align-items: center;
+	margin: 3rem auto 1rem;
+	justify-content: center;
+	max-width: 1000px;
+}
+
+footer a {
+	margin: 0 1rem;
+}

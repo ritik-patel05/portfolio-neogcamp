@@ -1,0 +1,46 @@
+.project-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.project-container {
+	display: flex;
+	border-style: solid;
+	border-color: purple;
+	margin-top: 0.5rem;
+	padding: 0.75rem 1.75rem;
+	border-radius: 1rem;
+	align-items: center;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-container h2 {
+	margin: 1rem;
+	color: purple;
+}
+
+.project-container p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.links a {
+	text-decoration: none;
+	font-size: 1rem;
+	border-style: solid;
+	border-radius: 1rem;
+	padding: 0.5rem 1.75rem;
+	color: white;
+	background-color: purple;
+}
+
+.github {
+	margin-left: 1rem;
+}

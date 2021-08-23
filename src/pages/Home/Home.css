@@ -1,0 +1,72 @@
+.intro {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 1000px;
+	width: 100%;
+}
+
+.intro > h1 {
+	font-size: 3rem;
+	font-weight: 800;
+}
+
+h1 span {
+	display: block;
+	color: transparent;
+	--tw-gradient-from: #338cf5;
+	--tw-gradient-to: #4fd1c5;
+	--tw-gradient-stops: var(--tw-gradient-from),
+		var(--tw-gradient-to, rgba(51, 140, 245, 0));
+	background-image: linear-gradient(90deg, var(--tw-gradient-stops));
+	-webkit-background-clip: text;
+}
+
+.intro-descritption {
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Heebo', sans-serif;
+	margin-bottom: 2rem;
+}
+
+.projects,
+.tech-stack {
+	background-color: black;
+	color: white;
+}
+
+.showcase {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.showcase-item {
+	text-align: center;
+	padding: 1.5rem;
+}
+
+.showcase-item a {
+	text-decoration: none;
+	display: block;
+	border-style: solid;
+	border-radius: 1rem;
+	border-width: 0;
+	max-width: 140px;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin: 1rem auto;
+	background-color: purple;
+	color: white;
+}
+
+.showcase-item h2 {
+	margin-bottom: 0.75rem;
+}
+
+.tech-stack ul {
+	list-style-type: none;
+}
+
+.tech-stack ul li h3 {
+	padding-bottom: 0.5rem;
+}
