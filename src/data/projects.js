@@ -62,6 +62,20 @@ const projects = [
 		live: 'https://pirateey.netlify.app/',
 		github: 'https://github.com/ritik-patel05/pirate-translation',
 	},
+	{
+		title: 'A Quiz on Valorant',
+		description:
+			'If you have ever played Valorant on PC, you will love to take this quiz. ',
+		live: 'https://replit.com/@ritik-patel05/DoYouKnowMe-Quiz-MarkOne?embed=1&output=1#index.js',
+		github: 'https://github.com/ritik-patel05/quiz-valorant',
+	},
+	{
+		title: 'Do you know me Quiz',
+		description:
+			'If you are a friend of mine, and would like to judge if you know me well. Give it a shot.',
+		live: 'https://replit.com/@ritik-patel05/Quiz-MarkTwo?embed=1&output=1#index.js',
+		github: 'https://github.com/ritik-patel05/do-you-know-me-quiz',
+	},
 ];
 
 export default projects;
