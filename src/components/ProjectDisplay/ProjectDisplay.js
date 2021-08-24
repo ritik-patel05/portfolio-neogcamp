@@ -8,7 +8,7 @@ const ProjectDisplay = ({ title, description, live, github }) => {
 			<p>{description}</p>
 			<div className='links'>
 				<a href={live}>Live</a>
-				<a className='github' href={github}>
+				<a className='github' href={github} target='_blank' rel='noreferrer'>
 					Github
 				</a>
 			</div>

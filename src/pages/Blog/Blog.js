@@ -14,7 +14,10 @@ const Blog = () => {
 						during my 6 months intern as a software engineer at
 						GeeksforGeeks.
 					</p>
-					<a href='https://dev.to/ritik_patel05/most-used-git-commands-9bp'>
+					<a
+						href='https://dev.to/ritik_patel05/most-used-git-commands-9bp'
+						target='_blank'
+						rel='noreferrer'>
 						Read article
 					</a>
 				</div>
@@ -27,7 +30,10 @@ const Blog = () => {
 						intern at GeeksforGeeks during my 3rd year, and all the
 						learnings that happened during this time.
 					</p>
-					<a href='https://dev.to/ritik_patel05/6-months-intern-as-a-software-engineer-geeksforgeeks-2l3k'>
+					<a
+						href='https://dev.to/ritik_patel05/6-months-intern-as-a-software-engineer-geeksforgeeks-2l3k'
+						target='_blank'
+						rel='noreferrer'>
 						Read article
 					</a>
 				</div>
