@@ -53,6 +53,12 @@ const Home = () => {
 							<span>Git, Jira, Github, Bitbucket</span>
 						</li>
 					</ul>
+					<a
+						target='_blank'
+						rel='noreferrer'
+						href='./RitikPatelResume.pdf'>
+						Check Resume
+					</a>
 				</div>
 			</div>
 		</main>
